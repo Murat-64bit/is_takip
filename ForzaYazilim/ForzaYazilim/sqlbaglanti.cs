@@ -11,7 +11,7 @@ namespace ForzaYazilim
     {
         public SqlConnection baglanti()
         {
-            SqlConnection baglan = new SqlConnection(@"Data Source=91.151.93.29;Initial Catalog=DboForzaMetal;User Id=kisitli; password=:z#sKiYo}BB24rYyEYOY*DdDhV7P;");
+            SqlConnection baglan = new SqlConnection();
             baglan.Open();
             return baglan;
         }
